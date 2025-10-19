@@ -6,7 +6,11 @@ import AppLayout from '@/layouts/app-layout';
 import SettingsLayout from '@/layouts/settings/layout';
 import { type BreadcrumbItem } from '@/types';
 import { Head, Link } from '@inertiajs/react';
-import { Briefcase, Building2, CalendarDays, Clock, Layers, Users } from 'lucide-react';
+import { Briefcase, Building2, 
+    // CalendarDays, 
+    Clock, 
+    // Layers, 
+    Users } from 'lucide-react';
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
@@ -53,20 +57,20 @@ const settingsItems = [
         icon: Clock,
         statKey: 'shifts' as keyof Props['stats'],
     },
-    {
-        title: 'Kategori Cuti',
-        description: 'Kelola kategori cuti dan aturan dasar',
-        href: '/settings/hrms/leave-categories',
-        icon: Layers,
-        statKey: 'leave_categories' as keyof Props['stats'],
-    },
-    {
-        title: 'Hari Libur',
-        description: 'Kelola hari libur nasional dan cuti bersama',
-        href: '/settings/hrms/holidays',
-        icon: CalendarDays,
-        statKey: 'holidays' as keyof Props['stats'],
-    },
+    // {
+    //     title: 'Kategori Cuti',
+    //     description: 'Kelola kategori cuti dan aturan dasar',
+    //     href: '/settings/hrms/leave-categories',
+    //     icon: Layers,
+    //     statKey: 'leave_categories' as keyof Props['stats'],
+    // },
+    // {
+    //     title: 'Hari Libur',
+    //     description: 'Kelola hari libur nasional dan cuti bersama',
+    //     href: '/settings/hrms/holidays',
+    //     icon: CalendarDays,
+    //     statKey: 'holidays' as keyof Props['stats'],
+    // },
 ];
 
 export default function HRMSSettings({ stats }: Props) {

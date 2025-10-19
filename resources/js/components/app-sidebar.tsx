@@ -5,7 +5,7 @@ import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarMenu, Sid
 import { type NavItem } from '@/types';
 import { Link } from '@inertiajs/react';
 import {
-    BadgeDollarSign,
+    // BadgeDollarSign,
     BookOpen,
     Building,
     Calendar,
@@ -14,9 +14,9 @@ import {
     LayoutGrid,
     Map,
     // Newspaper,
-    Paperclip,
+    // Paperclip,
     Pin,
-    Timer,
+    // Timer,
     Users,
 } from 'lucide-react';
 import AppLogo from './app-logo';
@@ -51,21 +51,21 @@ const hrNavItems: NavItem[] = [
         href: route('hrms.attendance.index'),
         icon: Calendar,
     },
-    {
-        title: 'Lemburan',
-        href: route('hrms.overtime.index'),
-        icon: Timer,
-    },
-    {
-        title: 'Cuti',
-        href: route('hrms.leave.index'),
-        icon: Paperclip,
-    },
-    {
-        title: 'Penggajian',
-        href: route('hrms.payroll.index'),
-        icon: BadgeDollarSign,
-    },
+    // {
+    //     title: 'Lemburan',
+    //     href: route('hrms.overtime.index'),
+    //     icon: Timer,
+    // },
+    // {
+    //     title: 'Cuti',
+    //     href: route('hrms.leave.index'),
+    //     icon: Paperclip,
+    // },
+    // {
+    //     title: 'Penggajian',
+    //     href: route('hrms.payroll.index'),
+    //     icon: BadgeDollarSign,
+    // },
 ];
 
 const clientNavItems: NavItem[] = [

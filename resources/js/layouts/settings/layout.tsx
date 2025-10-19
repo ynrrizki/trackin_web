@@ -35,11 +35,11 @@ const userNavItems: NavItem[] = [
         href: '/settings/role-permission',
         icon: null,
     },
-    {
-        title: 'Approver Layer',
-        href: '/settings/approver-layer',
-        icon: null,
-    },
+    // {
+    //     title: 'Approver Layer',
+    //     href: '/settings/approver-layer',
+    //     icon: null,
+    // },
 ];
 
 const hrmsNavItems: NavItem[] = [
